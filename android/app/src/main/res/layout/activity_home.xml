@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_gravity="center_vertical"
+    android:padding="20dp">
+
+
+    <LinearLayout
+        android:id="@+id/h_u_layout"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:visibility="visible"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_gravity="center">
+
+
+        <TextView
+            android:id="@+id/h_u_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Welcome Name"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimary"
+            android:textSize="18dp"/>
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:id="@+id/h_u_add_college"
+            android:text="ADD COLLEGE"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:padding="5dp"
+            android:background="@color/colorPrimary"
+            android:layout_marginTop="60dp"/>
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:id="@+id/h_u_add_student"
+            android:text="ADD STUDENT"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:padding="5dp"
+            android:background="@color/colorPrimary"
+            android:layout_marginTop="40dp"/>
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:id="@+id/h_u_enter_external"
+            android:text="ENTER EXTERNAL MARKS"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:padding="5dp"
+            android:background="@color/colorPrimary"
+            android:layout_marginTop="40dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:id="@+id/h_u_logout"
+            android:text="LOGOUT"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="bold"
+            android:textSize="12sp"
+            android:layout_marginTop="40dp"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/h_c_layout"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_gravity="center">
+
+
+        <TextView
+
+            android:id="@+id/h_c_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Welcome Name"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="bold"
+            android:textSize="18dp"/>
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:id="@+id/h_c_enter_internal_1"
+            android:text="ENTER FIRST INTERNAL MARKS"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:padding="5dp"
+            android:background="@color/colorPrimary"
+            android:layout_marginTop="60dp"/>
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:id="@+id/h_c_enter_internal_2"
+            android:text="ENTER SECOND INTERNAL MARKS"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:padding="5dp"
+            android:background="@color/colorPrimary"
+            android:layout_marginTop="40dp"/>
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:id="@+id/h_c_enter_internal_3"
+            android:text="ENTER THIRD INTERNAL MARKS"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:padding="5dp"
+            android:background="@color/colorPrimary"
+            android:layout_marginTop="40dp"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:id="@+id/h_c_logout"
+            android:text="LOGOUT"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="bold"
+            android:textSize="12sp"
+            android:layout_marginTop="40dp"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/h_s_layout"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_gravity="center">
+
+
+        <TextView
+            android:id="@+id/h_s_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Welcome Name"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="bold"
+            android:textSize="18dp"/>
+
+        <TextView
+            android:id="@+id/h_s_dob"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Date of Birth"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:id="@+id/h_s_college"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="College"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:id="@+id/h_s_department"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Department"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:id="@+id/h_s_year_semester"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Year / Semester"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:layout_marginTop="10dp"/>
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:id="@+id/h_s_internal"
+            android:text="VIEW INTERNAL MARKS"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:padding="5dp"
+            android:background="@color/colorPrimary"
+            android:layout_marginTop="40dp"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:id="@+id/h_s_final_result"
+            android:text="VIEW FINAL RESULT"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:padding="5dp"
+            android:background="@color/colorPrimary"
+            android:layout_marginTop="40dp"/>
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:id="@+id/h_s_report"
+            android:text="REPORT GRIEVANCES"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:padding="5dp"
+            android:background="@color/colorPrimary"
+            android:layout_marginTop="40dp"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:id="@+id/h_s_logout"
+            android:text="LOGOUT"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="bold"
+            android:textSize="12sp"
+            android:layout_marginTop="40dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>
